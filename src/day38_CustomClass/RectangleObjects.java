@@ -1,6 +1,13 @@
 package day38_CustomClass;
 
+import java.util.Arrays;
+
 public class RectangleObjects {
+
+
+    public String toString() {
+        return "RectangleObjects{}";
+    }
 
     public static void main(String[] args) {
 
@@ -19,6 +26,28 @@ public class RectangleObjects {
         rectangle2.setInfo(50,10);
 
         rectangle2.getInfo();
+
+        System.out.println("-------------------");
+
+        System.out.println(rectangle1);
+        System.out.println(rectangle2);
+
+        System.out.println("---------------");
+
+        Rectangle[] arr = {rectangle1, rectangle2};
+
+        System.out.println(arr[0]);
+        System.out.println(arr[1]);
+
+        System.out.println(Arrays.toString(arr));
+
+
+
+
+
+
+
+
 
 
     }

@@ -26,5 +26,10 @@ public class Rectangle {
         System.out.println("Rectangle.getInfo");
     }
 
+    public String toString(){
+        return "Rectangle = Width: "+width+" , Length: "+length+" , Area = "+calculateArea()+
+                " , Perimeter = "+calculatePerimeter();
+    }
+
 
 }
